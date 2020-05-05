@@ -7,10 +7,10 @@ package jwt_test
 import (
 	"context"
 
-	"golang.org/x/oauth2/jwt"
+	"github.com/hatchify/oauth2/jwt"
 )
 
-func ExampleJWTConfig() {
+func ExampleConfig() {
 	ctx := context.Background()
 	conf := &jwt.Config{
 		Email: "xxx@developer.com",
